@@ -45,7 +45,7 @@ const AboutSection = () => {
             {/* Content */}
             <div className="space-y-6 animate-slide-up">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Over the past few years, I've had the privilege of working with numerous companies to help them meet their marketing and business objectives. With significant expertise in online advertising, I've successfully managed campaigns across platforms like Facebook Ads, Snapchat Ads, Google Ads, and TikTok Ads.
+                With over 5+ years of experience in digital marketing, I've had the privilege of working with numerous companies to help them meet their marketing and business objectives. Starting at just $5.00/hr, I provide significant expertise in online advertising, successfully managing campaigns across platforms like Facebook Ads, Snapchat Ads, Google Ads, and TikTok Ads.
               </p>
               
               <div className="bg-card rounded-2xl p-6 shadow-card border border-border/50">
