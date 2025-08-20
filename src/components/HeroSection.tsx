@@ -70,14 +70,20 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-slide-up" style={{
           animationDelay: '0.6s'
         }}>
-            <Button variant="hero" size="xl" className="group">
-              <a href="#contact">Let's Grow Your Business</a>
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              🚀
-            </Button>
-            <Button variant="glass" size="xl">
-              View My Work
-            </Button>
+            <a 
+  href="#contact" 
+  className="group inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-200"
+>
+  Let's Grow Your Business
+  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+  🚀
+</a>
+            <a 
+  href="#portfolio" 
+  className="inline-flex items-center justify-center px-6 py-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-lg hover:bg-white/20 transition-all duration-200"
+>
+  View My Work
+</a>
           </div>
 
           {/* Stats */}
