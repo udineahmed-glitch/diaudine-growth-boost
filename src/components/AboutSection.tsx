@@ -70,7 +70,7 @@ const AboutSection = () => {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button variant="hero" size="lg">
-                  Let's Discuss Your Project
+                  <a href="#contact">Let's Discuss Your Project</a>
                 </Button>
                 <Button variant="outline" size="lg">
                   View Case Studies

@@ -71,7 +71,7 @@ const HeroSection = () => {
           animationDelay: '0.6s'
         }}>
             <Button variant="hero" size="xl" className="group">
-              Let's Grow Your Business 
+              <a href="#contact">Let's Grow Your Business</a>
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               🚀
             </Button>
