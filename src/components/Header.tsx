@@ -20,6 +20,7 @@ const Header = () => {
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Results', href: '#results' },
+    { name: 'Success Stories', href: '#success-stories' },
     { name: 'Portfolio', href: '#portfolio' },
     { name: 'Contact', href: '#contact' }
   ]
@@ -87,9 +88,13 @@ const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="hero" size="lg" className="w-full mt-4">
-                 <a href="#contact">Get Started</a>
-              </Button>
+              <a 
+                href="#contact" 
+                className="w-full mt-4 inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-semibold"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Get Started
+              </a>
             </nav>
           </div>
         )}
